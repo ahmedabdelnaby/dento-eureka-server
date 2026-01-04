@@ -1,5 +1,5 @@
-#server:
-#  port: 8761
+server:
+  port: 8761
 
 spring:
   application:
@@ -11,8 +11,8 @@ spring:
       enabled: false
       import-check:
         enabled: false
-#
-#eureka:
-#  client:
-#    register-with-eureka: false # tells Eureka don't register yourself
-#    fetch-registry: false # tells Eureka don't fetch other MSs details, lets them register themselves with you
+
+eureka:
+  client:
+    register-with-eureka: false # tells Eureka don't register yourself
+    fetch-registry: false # tells Eureka don't fetch other MSs details, lets them register themselves with you
